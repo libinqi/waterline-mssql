@@ -1,0 +1,43 @@
+{
+  "name": "waterline-mssql",
+  "version": "1.0.0",
+  "description": "Microsoft SQL Server adapter for waterline",
+  "main": "lib/adapter.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/libinqi/waterline-mssql.git"
+  },
+  "keywords": [
+    "waterline-mssql",
+    "sql server",
+    "waterline",
+    "sqlserver",
+    "microsoft",
+    "adapter",
+    "azure",
+    "mssql"
+  ],
+  "author": "libinqi",
+  "contributors": [
+    "libinqi libinqi@outlook.com"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.12.0",
+    "mssql": "^2.10.2",
+    "underscore.string": "^3.3.4",
+    "waterline-cursor": "0.0.6"
+  },
+  "waterlineAdapter": {
+    "type": "waterline-mssql",
+    "waterlineVersion": "~0.12.0",
+    "interfaces": [
+      "semantic",
+      "queryable",
+      "associations"
+    ]
+  },
+  "devDependencies": {
+    "waterline": "^0.12.1"
+  }
+}
