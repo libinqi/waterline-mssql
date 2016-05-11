@@ -2,7 +2,7 @@
   "name": "waterline-mssql",
   "version": "1.0.0",
   "description": "Microsoft SQL Server adapter for waterline",
-  "main": "lib/adapter.js",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/libinqi/waterline-mssql.git"
