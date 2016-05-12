@@ -1,6 +1,6 @@
 {
   "name": "waterline-mssql",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Microsoft SQL Server adapter for waterline",
   "main": "index.js",
   "repository": {
