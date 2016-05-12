@@ -95,3 +95,28 @@ var userModel = {
 
 };
 ```
+## Collection/Model Transation
+
+```js
+waterline.initialize(config, function (err, data) {
+  if (err) {
+    throw err;
+  }
+
+  var collections = data.collections;
+  var connections = data.connections;
+
+  // start transaction
+  collections.usermodel.transaction.start(function(err) {
+     // commit transaction
+    collections.userModel.transaction.commit(function(err) {
+
+    });
+
+    // rollback transaction
+    collections.usermodel.transaction.rollback(function(err) {
+
+    });
+  })
+});
+```
